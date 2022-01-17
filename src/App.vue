@@ -1,27 +1,49 @@
 <template>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <card-component
+        :img="require('./assets/imageEquilibrium.jpg')"
+        altImg="Image of an Equilibrium"
+        title="Equilibrium #3429"
+        description="Our
+    Equilibrium collection promotes balance and calm"
+        :value="0.041"
+        currency="ETH"
+        :time="3"
+        creator="Jules Wyvern"
+        creatorLink="https://dellaquila.dev"
+        :avatar="require('./assets/imageAvatar.png')"
+        avatarAlt="avatar of the creator"
+        :viewImg="require('./assets/iconView.svg')"
+        viewAlt="View icon"
+    />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import CardComponent from './components/CardComponent.vue'
 
 export default defineComponent({
     name: 'App',
+
     components: {
-        HelloWorld,
+        'card-component': CardComponent,
     },
 })
 </script>
 
 <style lang="scss">
+@import './css/reset.scss';
+@import './css/theme.scss';
+
+html,
+body,
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+    height: 100%;
+}
+
+#app {
+    background-color: $color-main-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>
