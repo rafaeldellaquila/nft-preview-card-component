@@ -29,12 +29,12 @@ Users should be able to:
 -  [Live Site URL](https://nft-preview-card-component-rho-orcin.vercel.app/)
 
 ## My process
-I started using and configuring [Vue.js](https://v3.vuejs.org/). Then I made the dynamic part of the component so that in the end I could apply the stylizations and interactions..
+I started using and configuring [Vue.js](https://v3.vuejs.org/). Then I made the dynamic part of the component so that in the end I could apply the stylizations and interactions.
 ### Built with
 - [SASS](https://sass-lang.com/)  - SASS
 - [Vue.js](https://v3.vuejs.org/) - JS library
 ### What I learned
-I Use this lesson to learn how to apply Typescript on Vue.js framework
+I Use this lesson to learn how to apply Typescript on Vue.js framework.
 
 ## Author
 
