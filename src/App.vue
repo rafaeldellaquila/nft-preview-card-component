@@ -27,6 +27,10 @@ export default defineComponent({
     components: {
         'card-component': CardComponent,
     },
+
+    created() {
+        return (document.title = '#01 - NFT Card Component')
+    },
 })
 </script>
 
