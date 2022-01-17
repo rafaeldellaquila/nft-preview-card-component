@@ -39,5 +39,5 @@ I Use this lesson to learn how to apply Typescript on Vue.js framework
 ## Author
 
 - Website - [Rafael Dell'Aquila](http://dellaquila.dev/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rafaeldellaquila)
+- Frontend Mentor - [@rafaeldellaquila](https://www.frontendmentor.io/profile/rafaeldellaquila)
 - Twitter - [@rfldllql](https://twitter.com/rfldllql)
